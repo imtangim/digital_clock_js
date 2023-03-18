@@ -7,12 +7,12 @@ function update(){
     const finalTime3=document.getElementById("sec").innerText = formatesec(date);
     const finalTime4=document.getElementById("amOrpm").innerText = formateam(date);
     if(Number(formatesec(date)%2)===0){
-        document.getElementById("hm-sep").innerText = ":"
-        document.getElementById("mm-sep").innerText = ":"
+        document.getElementById("hm-sep").style.visibility = "hidden"
+        document.getElementById("mm-sep").style.visibility= "hidden"
     }
     else{
-        document.getElementById("hm-sep").innerText = " "
-        document.getElementById("mm-sep").innerText = " "
+        document.getElementById("hm-sep").style.visibility = "visible"
+        document.getElementById("mm-sep").style.visibility= "visible"
     }
     function formatehour(date){
         let hr = date.getHours()
