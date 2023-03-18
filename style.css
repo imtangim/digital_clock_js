@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.clock{
+    display: flex;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 100px;
+}
+
+
+@media screen and (max-width : 530px) {
+    .clock{
+        width: 100%;
+        /* font-size: -webkit-calc(~'3.4vh * 1.8px') ; */
+        font-size: calc(87vw * 0.18);
+    }
+    
+}
+
