@@ -19,7 +19,7 @@
         width: 100%;
         /* font-size: -webkit-calc(~'3.4vh * 1.8px') ; */
         font-size: calc(87vw * 0.18);
-        overflow-y: hidden;
+        overflow: hidden;
 
     }
     
